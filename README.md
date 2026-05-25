@@ -35,6 +35,7 @@ The workflow for this project followed the standard data cleaning pipeline:
 7. Exporting Cleaned Dataset  
 
 The cleaned dataset was then prepared for exploratory data analysis in the next phase of the internship project.
+
 --- 
 ## Tools and Technologies Used
 - Python
@@ -48,7 +49,7 @@ The cleaned dataset was then prepared for exploratory data analysis in the next 
 
 ### 1. Missing Value Handling
 Missing values were checked across all columns in the dataset.  
-Null values identified in the `CouponCode` column were replaced with `"NO COUPON"` to indicate transactions without promotional discounts.
+Missing values identified in the `CouponCode` column were replaced with `"NO COUPON"` to indicate transactions without promotional discounts.
 
 ### 2. Duplicate Validation
 The dataset was examined for duplicate records to ensure data consistency and reliability.
