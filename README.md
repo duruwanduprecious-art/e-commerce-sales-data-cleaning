@@ -96,8 +96,8 @@ This project demonstrates practical skills in:
 
 | File | Description |
 |---|---|
-| `dataset for analytics.xlsx` | Original raw dataset |
-| `cleaned_dataset.xlsx` | Cleaned dataset after preprocessing |
+| `dataset for data analytics.xlsx` | Original raw dataset |
+| `cleaned_dataset for data analytics.xlsx` | Cleaned dataset after preprocessing |
 | `project1_data_cleaning.ipynb` | Jupyter Notebook containing the data cleaning workflow |
 | `project1_data_cleaning.html` | HTML export of the notebook |
 | `README.md` | Project documentation |
