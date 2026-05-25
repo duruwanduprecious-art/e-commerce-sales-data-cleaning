@@ -94,11 +94,13 @@ This project demonstrates practical skills in:
 
 ## Files Included
 
-- Raw dataset (.xlsx)
-- Cleaned dataset (.xlsx)
-- Jupyter Notebook (.ipynb)
-- HTML version of notebook (.html)
-- README documentation
+| File | Description |
+|---|---|
+| `dataset for analytics.xlsx` | Original raw dataset |
+| `cleaned_dataset.xlsx` | Cleaned dataset after preprocessing |
+| `project1_data_cleaning.ipynb` | Jupyter Notebook containing the data cleaning workflow |
+| `project1_data_cleaning.html` | HTML export of the notebook |
+| `README.md` | Project documentation |
 
 ---
 
