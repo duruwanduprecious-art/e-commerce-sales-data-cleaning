@@ -1,6 +1,7 @@
 # E-Commerce Sales Data Cleaning Using Python
 ## Internship Project 1
-This project focuses on cleaning and preprocessing an e-commerce sales dateset using Python and pandas to improve data quality, ensure consistency, and prepare the dataset for exploratory data analysis.
+This project focuses on cleaning and preprocessing an e-commerce sales dataset using Python and pandas to improve data quality, ensure consistency, and prepare the dataset for exploratory data analysis.
+
 ---
 ## Project Objectives
 The main objectives of this project were to:
@@ -11,14 +12,30 @@ The main objectives of this project were to:
 - Prepare a clean dataset suitable for analysis and reporting
 ---
 ## Dataset Description
-The dataset contains e-commerce transaction records including
+The dataset contains e-commerce transaction records including:
 - Customer information
 - Product purchases
 - Payment methods
 - Order statuses
 - Coupon usage
 - Revenue-related fields
+
 ---
+
+## Project Workflow
+
+The workflow for this project followed the standard data cleaning pipeline:
+
+1. Dataset Inspection  
+2. Missing Value Handling  
+3. Duplicate Validation  
+4. Datatype Verification  
+5. Text Standardization  
+6. Numerical Validation  
+7. Exporting Cleaned Dataset  
+
+The cleaned dataset was then prepared for exploratory data analysis in the next phase of the internship project.
+--- 
 ## Tools and Technologies Used
 - Python
 - pandas
@@ -26,36 +43,79 @@ The dataset contains e-commerce transaction records including
 - Jupyter Notebook
 - Microsoft Excel
 ---
+
 ## Data Cleaning Process
-The following cleaning steps were performed:
+
 ### 1. Missing Value Handling
-- Checked for null values across all columns
-- Replaced missing CouponCode values with '"NO COUPON"'
-### 2. Duplicate Check
-- Verified the dataset for duplicate records
-### 3. Datatype validation
-- Reviewed dataset datatypes to confirm consistency and suitability for analysis
-- Verified that numerical and date-related columns already contained appropriate datetypes
-### 4. Categorical Value Validation
-- Reviewed unique values within text columns
-- Checked for formatting inconsistency and spelling variations
-### 5. Text Standardization
-- Removed unnecessary spaces from categorical columns
-- Standardized text capitalization for consistency
-### 6. Numercal Validation
-- Validated TotalPrice calculations using:
-  TotalPrice = Quantity x UnitPrice
+Missing values were checked across all columns in the dataset.  
+Null values identified in the `CouponCode` column were replaced with `"NO COUPON"` to indicate transactions without promotional discounts.
+
+### 2. Duplicate Validation
+The dataset was examined for duplicate records to ensure data consistency and reliability.
+
+### 3. Datatype Validation
+Dataset datatypes were reviewed to confirm that numerical, categorical, and date-related columns were already formatted appropriately for analysis.
+
+### 4. Text Standardization
+Categorical columns were cleaned by:
+- Removing unnecessary spaces
+- Standardizing capitalization
+- Ensuring consistent text formatting
+
+### 5. Categorical Value Validation
+Unique values within categorical columns were reviewed to identify formatting inconsistencies and spelling variations.
+
+### 6. Numerical Validation
+A validation check was performed on the `TotalPrice` column to confirm that:
+
+`TotalPrice = Quantity × UnitPrice`
+
+The calculations were verified successfully across the dataset.
+
 ### 7. Exporting Cleaned Dataset
-- Exported the cleaned dataset for further analysis
----
-## Key Cleaning Outcomes
-- Missing values were suceefully handled
-- No duplicate records were identified
-- Text inconsistencies were standardized
-- Numerical calculations were validated
-- The dataset was prepared sucessufully for exploratory data analysis
+The cleaned dataset was exported successfully for further analysis and reporting.
+
 ---
 
-- 
+## Skills Demonstrated
 
+This project demonstrates practical skills in:
+
+- Data Cleaning
+- Data Validation
+- Data Preprocessing
+- Data Quality Assessment
+- Python Programming
+- pandas Data Manipulation
+- Dataset Documentation
+
+---
+
+## Files Included
+
+- Raw dataset (.xlsx)
+- Cleaned dataset (.xlsx)
+- Jupyter Notebook (.ipynb)
+- HTML version of notebook (.html)
+- README documentation
+
+---
+
+## Future Work
+
+The cleaned dataset from this project will be used for:
+
+- Exploratory Data Analysis (EDA)
+- Sales trend analysis
+- Customer behavior analysis
+- Revenue analysis
+- SQL-based business querying
+
+---
+
+## Conclusion
+
+This project successfully cleaned and prepared an e-commerce sales dataset for downstream analysis.
+
+The cleaning process improved dataset consistency, validated numerical accuracy, standardized categorical values, and ensured overall data reliability for future analytical tasks.
 
