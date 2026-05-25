@@ -71,7 +71,7 @@ A validation check was performed on the `TotalPrice` column to confirm that:
 
 `TotalPrice = Quantity × UnitPrice`
 
-The calculations were verified successfully across the dataset.
+The validation confirmed that the revenue calculations were consistent across the dataset.
 
 ### 7. Exporting Cleaned Dataset
 The cleaned dataset was exported successfully for further analysis and reporting.
